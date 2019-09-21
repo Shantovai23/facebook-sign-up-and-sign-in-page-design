@@ -1,0 +1,358 @@
+/* CSS for header img and email,pass*/
+
+
+
+
+*{margin: 0; padding: 0;}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #EDEFF6;
+    
+}
+
+#full_screen{
+    width: 100%;
+    background: #3B5998;
+}
+
+#screen_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    
+    
+}
+
+#header img{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    
+    
+}
+header{
+    width: 1050px;
+    background: #3B5998;
+}
+
+#form{
+    margin-left: 580px;
+    margin-top: -65px;
+    font-family: verdana;
+    font-size: 12.35px;
+   
+    
+}
+
+#emai{
+    float: left;
+    padding: 0 10px;
+    color: white; 
+    margin-top: -5px;
+   
+}
+
+#emai input{
+    border: 1px solid #1D2A5B;
+    height: 22px;
+    
+}
+
+#emai p{
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+#passw{
+    
+    float: left;
+    padding: 0 10px;
+    color: white;
+    margin-top: -5px;
+}
+#passw input{
+    border: 1px solid #1D2A5B;
+    height: 21px;
+    
+}
+
+#passw p{
+    padding: 0;
+    margin-bottom: -10px;
+   
+}
+
+
+
+#passw p a{
+    color: #9CABC5;
+    text-decoration: none; 
+    position: absolute;
+    top: 60px;
+}
+
+
+#passw p a:hover{
+    text-decoration: underline;
+    
+}
+
+#login{
+    float:left;
+    padding: 0 10px;
+    margin-top: 14px;
+    color: white;    
+    
+}
+
+#login input{
+    background: #4267B2;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+    width: 100%;
+    cursor: pointer;
+    border : 1px  solid #29487D;
+}
+#login input:hover{
+    background: #3B5998;
+}
+
+#clr{
+    background-color: #E6E9F2;
+}
+
+
+
+
+/* Left side content(pragraph and image)
+*/
+
+
+
+
+#full_screen2{
+    width: 100%;  
+    
+}
+
+#pragraph{
+    font-family: tahoma;
+    font-size: 19px;
+    position: absolute;
+    top: 124px;
+    font-weight: bold;
+    color: #0E385F;
+    line-height: 30px;
+}
+
+#content_img{
+   
+    position: absolute;
+    top: 185px;
+}
+
+
+/* CSS for input
+*/
+
+
+#input{
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    left: 842px;
+    display: inline;
+    
+}
+
+#header_side{
+    position: absolute;
+    top: 100px;
+    left: 840px;
+    font-family: verdana;
+    color: #333333;
+    font-size: 17px;
+    
+}
+
+#header_side p{
+    color: #1D2129;
+    margin-top: 16px;
+    font-family: verdana;
+}
+
+#First_name input{
+    float: left;
+    height: 35.8px;
+    border: 1px solid #BDC7D8;
+    border-radius: 6%;
+    width: 170px;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #B39999;
+    background: #FFFFFF;
+   
+    
+}
+#Surname input{
+    height: 35.8px;
+    border: 1px solid #BDC7D8;
+    width: 170px;
+    border-radius: 6%;
+    margin-left: 12px;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #B39999;
+    background: #FFFFFF;
+    
+}
+#Mobile input{
+    width: 375px;
+    height: 35.8px;
+    border: 1px solid #BDC7D8;
+    border-radius: 6%;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #B39999;
+    background: #FFFFFF;
+    
+}
+
+#New input{
+    width: 375px;
+    height: 35.8px;
+    border: 1px solid #BDC7D8;
+    border-radius: 6%;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #B39999;
+    background: #FFFFFF;
+    
+}
+
+
+
+
+/* CSS for Birthdate and Gender
+*/
+
+#bottom_form form{
+    position: absolute;
+    top: 350px;
+    left: 848px;
+    font-family: verdana;
+    font-weight: bold;
+    color:#90949C;
+    
+}
+
+#bottom_form form p{
+    margin-bottom: -10px;
+}
+
+#bottom_form form select{
+    width: 60px;
+    height: 30px;
+    float: left;
+    border: 1px solid #CCD0D5;
+}
+
+#bottom_form form img{
+    float: left;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+#final_form form{
+    position: absolute;
+    top: 425px;
+    left: 848px;
+    
+}
+
+#final_form form #gen{
+    font-family: verdana;
+    font-weight: bold;
+    color:#90949C;
+    margin-bottom: -12px;
+}
+
+#final_form form label{
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+    margin-left: 2px;
+}
+
+#final_form form input{
+    margin-left: 12px;
+}
+#final_form form img{
+    
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+#final_form form #term{
+    font-family: arial;
+    font-size: 11px;
+    margin-top: 18px;
+    color: #777777;
+    text-decoration: none;
+}
+#final_form form #term a{
+    
+    text-decoration: none;
+    color: #385898;
+}
+
+#final_form form #term a:hover{
+    
+    text-decoration: underline;
+     color: #385898;
+}
+
+#final_form form #sign{
+    border: 1px solid #3B6E22;
+    margin-left: -5px;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 5%;
+    height: 40px;
+    margin-top: 23px;
+    width: 190px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+#final_form form #create{
+    margin-top: 33px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: tahoma;
+    color: #666666;       
+}
+
+#final_form form #create a{
+    text-decoration: none;
+    color: #3875BA;
+}
+
+#final_form form #create a:hover{
+    text-decoration: underline;
+}
+
+
+
+
